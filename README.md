@@ -1,6 +1,6 @@
 # Meze: legal and support pages
 
-Privacy policy, terms and conditions and the contact page for the Meze app, published with GitHub Pages:
+Privacy policy, terms of use and the contact page for the Meze app, published with GitHub Pages:
 
 - https://hussainmesum8.github.io/Meze-Legal/privacy-policy.html
 - https://hussainmesum8.github.io/Meze-Legal/terms-and-conditions.html
