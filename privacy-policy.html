@@ -37,14 +37,14 @@
 
   <section>
     <h2>2. What stays on your phone</h2>
-    <p>Your recipes and their photos, meal plans, shopping lists, favourites and settings are stored only on your phone. We cannot see them. A backup file, including your recipe photos, is created only when you export one, and you choose where it goes. Deleting the app deletes this data.</p>
+    <p>Your recipes and their photos, meal plans, shopping lists, favourites and settings are stored only on your phone, and in your phone&rsquo;s own backup if you use one. We cannot see them. A backup file, including your recipe photos, is created only when you export one, and you choose where it goes. Deleting the app deletes this data.</p>
   </section>
 
   <section>
     <h2>3. What leaves your phone</h2>
     <p><strong>Importing a recipe from a link.</strong> Only after you allow AI recipe reading, Meze sends the link, and for a website the recipe text from the page, to its recipe reader, a server we run in Nuremberg, Germany. To write the recipe, the reader sends that text, or a post&rsquo;s public caption, to OpenAI. When a caption is not enough, it also sends the post&rsquo;s audio or a few pictures from it, and deletes them within minutes. The finished recipe is kept on the reader for up to 30 days, not linked to you, so the same link loads faster. You can turn AI recipe reading off in Settings; website recipes are then read on your phone only. Recipes from photos and cookbook pages are always read on your phone and are not uploaded.</p>
     <p><strong>Free imports.</strong> To count the 5 free imports each week, the app sends a random install code with each import. The reader keeps only a scrambled form of it, and deletes it after that week.</p>
-    <p><strong>Ingredient pictures and notes.</strong> The app asks the reader for these by the ingredient&rsquo;s name only.</p>
+    <p><strong>Ingredient pictures and notes.</strong> The app asks the reader for these by the ingredient&rsquo;s name only. When the reader has none yet, OpenAI writes the notes or draws the picture from that name.</p>
     <p><strong>Purchases.</strong> Apple or Google handle payment. We never see your card. RevenueCat confirms your subscription using the random install code and your purchase records.</p>
     <p><strong>Usage and crash reports.</strong> Google Firebase receives anonymous usage events (such as screens opened) and crash reports, with your device model, app version and approximate region, which Google works out from the connection. They never include your recipes, links or anything you write. You can turn them off in Settings with &ldquo;Share usage and crash reports&rdquo;.</p>
     <p><strong>Server logs.</strong> The reader keeps a short log of requests, with only part of your network address, for 7 days to stop abuse.</p>
@@ -54,7 +54,7 @@
     <h2>4. Who receives it</h2>
     <ul>
       <li>Hetzner (Germany), which hosts the reader.</li>
-      <li>OpenAI, which reads imported posts and pages. It does not use this data to train its models and keeps it for up to 30 days for abuse monitoring.</li>
+      <li>OpenAI, which reads imported posts and pages, and writes ingredient notes and pictures. It does not use this data to train its models and keeps it for up to 30 days for abuse monitoring.</li>
       <li>Google Firebase, for usage and crash reports.</li>
       <li>RevenueCat, Apple and Google, for purchases.</li>
     </ul>
